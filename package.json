@@ -1,8 +1,8 @@
 {
   "name": "hb",
+  "homepage": "https://MarkBrem.github.io/hb/",
   "version": "1.0.0",
   "main": "index.js",
-  "homepage": "https://markbrem.github.io/hb/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html"
