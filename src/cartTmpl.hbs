@@ -1,0 +1,11 @@
+{{#each this}}
+<li>
+    <h2 class="name">{{name}}</h2>
+    <p class="description">{{description}}</p>
+    <p class="price">{{price}}</p>
+    <p class="category">{{category}}</p>
+    {{#if inStock}}
+    <h3>In Sale</h3>
+    {{/if}}
+</li>
+{{/each}}
